@@ -6,7 +6,7 @@ const cors = require("cors")
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
-    origin: "https://resume-ai-ten-alpha.vercel.app",
+    origin: "resume-ai-git-main-kush-guptas-projects.vercel.app",
     credentials: true
 }))
 

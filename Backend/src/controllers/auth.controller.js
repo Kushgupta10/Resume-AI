@@ -108,7 +108,7 @@ async function logoutUserController(req,res) {
     httpOnly: true,
     secure: true,
     sameSite: "None"
-}))
+})
 
 
     res.status(200).json({
